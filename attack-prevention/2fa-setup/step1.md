@@ -1,17 +1,13 @@
-echo "Testing1"
-
-echo "Testing2"
-
-echo "Testing3"
-
-echo "Send Ctrl+C before running Terminal"
+@ -1,17 +0,0 @@
+echo "step 1"
 
 ```sh
-echo "Line 1"
+echo "step 1"
 
-echo "Line 2"
+```{{copy}}
 
-echo "Line 3"
+
+```sh
+echo "step 1"
+
 ```{{execute}}
-
-`echo "Run in Terminal"`{s{execute}}
