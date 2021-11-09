@@ -4,4 +4,10 @@ echo "step 1"
 ```sh
 echo "step 1"
 
-`echo "Run in Terminal"`{s{execute}}
+```{{copy}}
+
+
+```sh
+echo "step 1"
+
+```{{execute}}
