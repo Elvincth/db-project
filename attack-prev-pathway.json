@@ -1,5 +1,11 @@
 {
   "title": "Attack prevention",
   "description": "",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "2fa-setup",
+      "title": "Setup 2FA in wordpress",
+      "description": "Katacoda Scenario Example"
+    }
+  ]
 }
