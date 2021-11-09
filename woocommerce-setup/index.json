@@ -35,11 +35,11 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorial",
-    "files": [
-      "docker-compose.yml"
-    ]
+    "uieditorpath": "/root/tutorial"
   },
+  "files": [
+    "docker-compose.yml"
+  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }
