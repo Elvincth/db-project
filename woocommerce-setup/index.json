@@ -27,6 +27,7 @@
       }
     ],
     "intro": {
+      "background": "background.sh",
       "text": "intro.md"
     },
     "finish": {
