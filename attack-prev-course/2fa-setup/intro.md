@@ -1,1 +1,1 @@
-test
+In this course, you will learn how to set up and config the **Two-factor authentication(2FA)** to protect your own WordPress website
