@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Setup Docker Compose",
+        "title": "Step 1 - Setup D",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Setup wordpress admin account",
         "text": "step2.md"
       },
       {
@@ -36,7 +36,14 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorial"
+    "uieditorpath": "/root/tutorial",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Wordpress",
+        "port": 8000
+      }
+    ]
   },
   "files": [
     "docker-compose.yml"
