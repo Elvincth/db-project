@@ -2,4 +2,7 @@
 
 TEST
 
-`top`{{execute}}
+`ls -a`{{execute}}
+
+
+![Katacoda Logo](./assets/logo-text-with-head.png)
