@@ -29,7 +29,7 @@ services:
       - "8000:80"
     restart: always
     environment:
-      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_HOST: mysql:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: d2Oqadruj9*
       WORDPRESS_DB_NAME: wordpress
@@ -45,15 +45,15 @@ Run `docker-compose up -d`{{execute}}
 
 #### 3. Check if both container is running
 
-`docker ps`{{execute}}
+Run `docker ps`{{execute}}
 
 ![Image](./assets/docker_ps.png)
 
 #### 4. Check the logs of the both container to make sure there is no errors
 
-`docker logs mysql`{{execute}}
+Run `docker logs mysql`{{execute}}
 
-`docker logs wordpress`{{execute}}
+Run `docker logs wordpress`{{execute}}
 
 #### 5. Access your WordPress application at localhost:8000
 
