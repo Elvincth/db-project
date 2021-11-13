@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Setup D",
+        "title": "Step 1 - Setup Docker Compose",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Setup wordpress admin account",
+        "title": "Step 2 - Setup wordpress",
         "text": "step2.md"
       },
       {
@@ -27,7 +27,7 @@
       }
     ],
     "intro": {
-      "background": "background.sh",
+      "courseData": "background.sh",
       "text": "intro.md"
     },
     "finish": {
@@ -41,7 +41,7 @@
     "dashboards": [
       {
         "name": "Wordpress",
-        "port": 8000
+        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
       }
     ]
   },
