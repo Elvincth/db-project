@@ -9,7 +9,7 @@ Select the 2FA authentication method(Suggested to choose generated with app) and
 ![Katacoda Logo](./assets/Authentication.png)
 
 ## **Step 2:**
-After Select the 2FA authentication method,a QR code will show up
+After Select the 2FA authentication method, a QR code will show up
 
 ![Katacoda Logo](./assets/QRcode.png)
 
@@ -32,7 +32,7 @@ after scanning the QR code a 6-digital number will show up which will use for fi
 ![Katacoda Logo](./assets/GoogleAuthenticator.png)
 
 ## **Step 5:**
-Input the the 6-digital number to the input field and click `Validation & Save Configuration` button .
+Input the 6-digital number to the input field and click `Validation & Save Configuration` button.
 
 ![Katacoda Logo](./assets/CodeInput.png)
 
@@ -40,3 +40,8 @@ Input the the 6-digital number to the input field and click `Validation & Save C
 After that, Backup codes will be generated. As the backup codes are very important which can help you to find your account back when you cannot log in due to some accident. It is suggested to download the Backup codes and Print the backup codes and keep them in some safe place. After downloading and printing the backup code you can click`I'm ready, close the wizard` button to leave finish the configuration.
 
 ![Katacoda Logo](./assets/BackUpCode.png)
+
+## Modify The configuration 
+You can view the configuration and modify the configuration by clicking the `WP 2FA` on the left bar of the WordPress website
+
+![Katacoda Logo](./assets/ModifyConfig.png)
