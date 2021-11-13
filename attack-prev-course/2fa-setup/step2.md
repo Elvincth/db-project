@@ -1,5 +1,5 @@
 
-## **1. Download and Activate the Plugin**
+## **2. Download and Activate the Plugin**
 ---
 ### **Step 1:** 
 Click the plugins in the menu bar and click the ```Add New button``` to add a new plugin for the WordPress.
@@ -13,6 +13,6 @@ Input the ```WP 2FA ```in the search bar and the WP 2FA plug will appear
 ![Katacoda Logo](./assets/AfterSearch.png)
 
 ### **Step 3:**
-Click ```Install Now ```button to install the plugin and after install the ```Activate``` button will show up and click it to activate the plugin.
+Click ```Install Now ```button to install the plugin and after installing the ```Activate``` button will show up and click it to activate the plugin. After activate the plugin.
 
 ![Katacoda Logo](./assets/Activate.png)
