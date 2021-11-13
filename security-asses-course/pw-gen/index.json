@@ -12,6 +12,10 @@
       "text": "intro.md",
       "credits": ""
     },
+    "steps": [{
+      "title": "Step 2 - Password generator",
+      "text": "step2.md"
+    }],
     "finish": {
       "text": "finish.md"
     }
