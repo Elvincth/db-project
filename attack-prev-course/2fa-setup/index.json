@@ -1,6 +1,6 @@
 {
   "title": "Setup 2FA in wordpress",
-  "description": "",
+  "description": "Using the wordpress plugin to set up 2FA",
   "difficulty": "Beginner",
   "time": "15",
   "details": {
