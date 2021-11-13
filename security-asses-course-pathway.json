@@ -1,5 +1,12 @@
 {
   "title": "Security Assessment and Identification of sensitive data/user's PII",
   "description": "Security Assessment and Identification of sensitive data/user's PII",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "pw-gen",
+      "title": "Password generator in wordpress",
+      "description": "etup a strong password genertor in wordpress"
+    }
+   
+  ]
 }

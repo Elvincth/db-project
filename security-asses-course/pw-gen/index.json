@@ -1,6 +1,6 @@
 {
-  "title": "Demo Scenario",
-  "description": "A Sample Scenario",
+  "title": "Password generator in wordpress",
+  "description": "Setup a strong password genertor in wordpress",
   "difficulty": "Beginner",
   "time": "2 minutes",
   "details": {
