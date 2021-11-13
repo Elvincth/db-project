@@ -45,15 +45,15 @@ Run `docker-compose up -d`{{execute}}
 
 #### 3. Check if both container is running
 
-`docker ps`{{execute}}
+Run `docker ps`{{execute}}
 
 ![Image](./assets/docker_ps.png)
 
 #### 4. Check the logs of the both container to make sure there is no errors
 
-`docker logs mysql`{{execute}}
+Run `docker logs mysql`{{execute}}
 
-`docker logs wordpress`{{execute}}
+Run `docker logs wordpress`{{execute}}
 
 #### 5. Access your WordPress application at localhost:8000
 
