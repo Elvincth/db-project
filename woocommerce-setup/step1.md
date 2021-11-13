@@ -52,11 +52,16 @@ volumes:
   wordpress_data: {}
 </pre>
 
-### 2. Start the WordPress and MySql container
+### 2. Start the WordPress and MySql container in background
 
 Run `docker-compose up -d`{{execute}}
 
 ### 3. Check if both container is running
+
 `docker ps`{{execute}}
 
-### 
+### 4. Check the logs of the both container to make sure there is no errors
+
+`docker logs db`{{execute}}
+
+`docker logs wordpress`{{execute}}
