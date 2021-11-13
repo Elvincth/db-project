@@ -6,7 +6,19 @@
       "course_id": "pw-gen",
       "title": "Password generator in wordpress",
       "description": "Setup a strong password genertor in wordpress"
-    }
+    },
+
+    {
+      "course_id": "SSL",
+      "title": "Installing SSL plugin",
+      "description": "Improving website's security by installing 'easySSL' plugin"      
+    },
+
+    {
+      "course_id": "wpscan",
+      "title": "Setup WPScan in wordpress",
+      "description": "Using WP scan to perform vulnerability check"      
+    }    
    
   ]
 }
