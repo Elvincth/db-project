@@ -7,15 +7,16 @@
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "step1.md"
-    }],
+    },
+    {"title": "Step 2 - Password generator",
+    "text": "step.md"
+    }
+  
+  ],
     "intro": {
       "text": "intro.md",
       "credits": ""
     },
-    "steps": [{
-      "title": "Step 2 - Password generator",
-      "text": "step2.md"
-    }],
     "finish": {
       "text": "finish.md"
     }
