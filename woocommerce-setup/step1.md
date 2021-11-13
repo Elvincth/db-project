@@ -6,35 +6,22 @@ Docker Compose is based on a docker-compose.yml file. This file defines all of t
 version: "3.2"
 
 services:
-  db:
+  mysql:
+    container_name: mysql
     image: mysql:latest
     volumes:
       - ./db_data:/var/lib/mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_ROOT_PASSWORD: d2Oqadruj9*
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: d2Oqadruj9*
 
   wordpress:
+    container_name: wordpress
     depends_on:
-      - db
-    image: wordpress:latest
-    volumes:
-      - ./wordpress_data:/var/www/html
-    ports:
-      - "8000:80"
-    restart: always
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: d2Oqadruj9*
-      WORDPRESS_DB_NAME: wordpress
-
-  wordpress:
-    depends_on:
-      - db
+      - mysql
     image: wordpress:latest
     volumes:
       - ./wordpress_data:/var/www/html
@@ -60,9 +47,11 @@ Run `docker-compose up -d`{{execute}}
 
 `docker ps`{{execute}}
 
+![Image](./assets/docker_ps.png)
+
 #### 4. Check the logs of the both container to make sure there is no errors
 
-`docker logs db`{{execute}}
+`docker logs mysql`{{execute}}
 
 `docker logs wordpress`{{execute}}
 
