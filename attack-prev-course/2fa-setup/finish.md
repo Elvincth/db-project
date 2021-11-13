@@ -1,0 +1,1 @@
+Well done you have set up the 2FA in wordpress successfully.
