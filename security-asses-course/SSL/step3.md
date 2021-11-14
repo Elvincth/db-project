@@ -1,3 +1,4 @@
+## Step 3:
 
 ### 1. Find the plugin tab in wordpress
 
@@ -21,3 +22,4 @@ Put your mouse cursor on the plugin tab and click 'Add new'.
 Make sure you find the 'Really Simple SSL' plugin as the below image. And click 'install now'
 
 ![Image](./assets/SSL3/SSL3-4.JPG)
+
