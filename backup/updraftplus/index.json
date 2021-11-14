@@ -1,6 +1,6 @@
 {
-  "title": "Installing SSL plugin",
-  "description": "Improving website's security by installing 'Really Simple SSL' plugin",
+  "title": "Installing Updraftplus plugin",
+  "description": "Securely backing up of customer/transaction data",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
@@ -17,10 +17,13 @@
         "title": "Step 3",
         "text": "step3.md"
       },
-
       {
         "title": "Step 4",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -31,19 +34,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorial",
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Wordpress",
-        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
-      }
-    ]
+    "uilayout": "terminal"
   },
-  "files": [
-    "docker-compose.yml"
-  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }

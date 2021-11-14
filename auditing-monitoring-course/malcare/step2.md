@@ -1,16 +1,16 @@
-## **2. Setup Malcare Plugin**
+## **Step2: Setup Malcare Plugin**
 ---
 The setup page of `Malcare` will appear automatically after clicking the `Activate` button.
 ![Image](./assets/malcareSetup.png)
 
-## **Step 1:** 
+## 1. Login email account in Malcare and scan your website
 Typing the email and tick the agreement box. Then press the `submit`.
 ![Image](./assets/malcareEmail.png)
 
 After clicking the submit button, it will direct to the `Malcare` page for scanning the website.
 ![Image](./assets/malcareScan.png)
 
-## **Step 2:** 
+## 2. Start monitor your website
 After successful scanning the webiste, you can click the `Malcare` option for monitoring any data breach events from external and internal attacks.
 ![Image](./assets/malcarePlugin.png)
 
