@@ -1,1 +1,0 @@
-In this course, you will learn how to install the **Malcare** plugin for monitoring data breach events from external and internal attacks.
