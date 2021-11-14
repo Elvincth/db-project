@@ -2,16 +2,11 @@
   "title": "Security Assessment and Identification of sensitive data/user's PII",
   "description": "Security Assessment and Identification of sensitive data/user's PII",
   "courses": [
-    {
-      "course_id": "pw-gen",
-      "title": "Password generator in wordpress",
-      "description": "Setup a strong password genertor in wordpress"
-    },
 
     {
       "course_id": "SSL",
       "title": "Installing SSL plugin",
-      "description": "Improving website's security by installing 'easySSL' plugin"      
+      "description": "Improving website's security by installing 'Really Simple SSL' plugin"      
     },
 
     {
