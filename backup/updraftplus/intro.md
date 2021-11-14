@@ -1,0 +1,1 @@
+In this course, you will learn how to install the **Updraftplus** plugin for backing up the WordPress securly.
