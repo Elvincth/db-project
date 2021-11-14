@@ -7,13 +7,12 @@
 
 Username and password can use the followings:</br>
 
-Username: `polyu_admin`{{copy}}
+Username: `admin`{{copy}}
 </br>
-(Use your own username durning your OWN setup)
 
-Password: `$YOnq0I0krJ912Pntj`{{copy}}
+Password: `admin`{{copy}}
 </br>
-(Use the generated password durning your OWN setup, it creates a strong and unpredictable passwords for your admin account)
+(Create a simple password for later use)
 </br>
 
 ![Image](./assets/info_fill.png)
@@ -28,9 +27,9 @@ Password: `$YOnq0I0krJ912Pntj`{{copy}}
 
 #### 5. Fill in the login credentials that we set up in step 2 and login in to the dashboard
 
-Username: `polyu_admin`{{copy}}
+Username: `admin`{{copy}}
 </br>
-Password: `$YOnq0I0krJ912Pntj`{{copy}}
+Password: `admin`{{copy}}
 </br>
 
 ![Image](./assets/wp_login.png)
