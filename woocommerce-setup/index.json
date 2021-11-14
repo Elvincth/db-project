@@ -40,8 +40,8 @@
     "showdashboard": true,
     "dashboards": [
       {
-        "name": "Wordpress",
-        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
+        "name": "WordPress",
+        "port": 8000
       }
     ]
   },

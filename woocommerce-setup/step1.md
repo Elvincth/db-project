@@ -1,5 +1,3 @@
-</br>
-
 #### 1. Setup your Wordpress and WooCommerce stack
 
 Docker Compose is based on a docker-compose.yml file. This file defines all of the containers and settings you need to launch your set of clusters.
@@ -41,9 +39,13 @@ volumes:
   wordpress_data: {}
 </pre>
 
+</br>
+
 #### 2. Start the WordPress and MySql container in background
 
 Run `docker-compose up -d`{{execute}}
+
+</br>
 
 #### 3. Check if both container is running
 
@@ -51,11 +53,15 @@ Run `docker ps`{{execute}}
 </br>
 ![Image](./assets/docker_ps.png)
 
+</br>
+
 #### 4. Check the logs of the both container to make sure there is no errors
 
 Run `docker logs mysql`{{execute}}
 
 Run `docker logs wordpress`{{execute}}
+
+</br>
 
 #### 5. Access your WordPress application at localhost:8000
 
