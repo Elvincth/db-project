@@ -13,7 +13,13 @@
       "course_id": "wpscan",
       "title": "Setup WPScan in wordpress",
       "description": "Using WP scan to perform vulnerability check"      
-    }    
+    } ,
+
+    {
+      "course_id": "firewall",
+      "title": "Setup firewall in wordpress",
+      "description": "Using all in one WP Security & Firewall to improve site's security"      
+    } 
    
   ]
 }
