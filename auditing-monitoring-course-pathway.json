@@ -1,5 +1,11 @@
 {
   "title": "Auditing, Monitoring, Alerting and Detecting Insider/External Attacks",
   "description": "Auditing, Monitoring, Alerting and Detecting Insider/External Attacks",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "Malcare",
+      "title": "Installing Malcare plugin",
+      "description": "Monitoring data breach events from external and internal attacks"      
+    }
+  ]
 }
