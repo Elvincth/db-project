@@ -1,2 +1,0 @@
-mkdir tutorial
-cd tutorial

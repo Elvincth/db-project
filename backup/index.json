@@ -38,6 +38,6 @@
   },
   "backend": {
     "imageid": "ubuntu:2004",
-    "port": "3000"
+    "port": "8000"
   }
 }
