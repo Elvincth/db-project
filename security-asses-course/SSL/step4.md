@@ -1,4 +1,4 @@
-
+## Step 4:
 
 ### 1. Activate the plugin
 
