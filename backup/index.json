@@ -1,16 +1,16 @@
 {
-  "title": "Create A Wordpress WooCommerce Platform",
+  "title": "Securely backing up of customer/transaction data",
   "description": "",
   "difficulty": "Beginner",
   "time": "20",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Setup Docker Compose",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Setup wordpress",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
@@ -27,7 +27,6 @@
       }
     ],
     "intro": {
-      "background": "background.sh",
       "text": "intro.md"
     },
     "finish": {
@@ -35,20 +34,10 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorial",
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "WordPress",
-        "port": 8000
-      }
-    ]
+    "uilayout": "terminal-iframe"
   },
-  "files": [
-    "docker-compose.yml"
-  ],
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu:2004",
+    "port": "8000"
   }
 }
