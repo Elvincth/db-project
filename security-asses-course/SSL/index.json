@@ -4,6 +4,12 @@
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+     "assets": {
+      "host01": [
+          {"file": "docker-compose.yml", "target": "/root", "chmod": "+x"}
+      ]
+     },
+      
     "steps": [
       {
         "title": "Step 1",
