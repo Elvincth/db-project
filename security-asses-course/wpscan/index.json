@@ -33,7 +33,6 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "kubernetes",
-    "port": "8000"
+    "imageid": "ubuntu:2004"
   }
 }
