@@ -1,6 +1,4 @@
-</br>
-
-## Step 2:
+<br/>
 #### 1. Select your preferred wordpress language (English)
 
 ![Image](./assets/lang.png)
