@@ -1,8 +1,5 @@
 </br>
 
-## Step 1:
-
-</br>
 
 ### What is Personally identifiable information (PII) 
 

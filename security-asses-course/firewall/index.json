@@ -1,24 +1,24 @@
 {
   "title": "Setup firewall in wordpress",
-  "description": "Using all in one WP Security & Firewall to improve site's security",
+  "description": "Using 'All in one WP Security & Firewall' to improve site's security",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Prepare the environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Login to your wordpress",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: Installation of the firewall plugin",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4: All in one WP Security & Firewall",
         "text": "step4.md"
       }
     ],
@@ -29,7 +29,20 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/tutorial",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Wordpress",
+        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
+  },
+  "files": [
+    "docker-compose.yml"
+  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }

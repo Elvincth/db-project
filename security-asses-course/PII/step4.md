@@ -1,8 +1,5 @@
 </br>
 
-## Step 4:
-</br>
-
 ### Encrypt important data
 
 </br>

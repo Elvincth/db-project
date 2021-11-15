@@ -1,9 +1,5 @@
 </br>
 
-## Step 2:
-
-</br>
-
 #### 1. Docker Compose is based on a docker-compose.yml file. This file defines all of the containers and settings you need to launch your set of clusters.
 </br>
 <pre class="file" data-filename="./docker-compose.yml" data-target="replace">
