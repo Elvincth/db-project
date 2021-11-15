@@ -16,6 +16,12 @@
       "course_id": "firewall",
       "title": "Setup firewall in wordpress",
       "description": "Using all in one WP Security & Firewall to improve site's security"
+    },
+    {
+      "course_id": "PII",
+      "title": "Introduction of Personally Identifiable Information(PII)",
+      "description": "Geting more knowledge about PII to protect user information"
     }
+
   ]
 }

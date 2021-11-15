@@ -6,6 +6,11 @@
       "course_id": "updraftplus",
       "title": "Installing Updraftplus plugin",
       "description": "Securely backing up of customer/transaction data"
+    },
+    {
+      "course_id": "mysqldump",
+      "title": "Backup by using Mysqldump with OpenSSL encryption",
+      "description": "Securely backing up of customer/transaction data"
     }
   ]
 }
