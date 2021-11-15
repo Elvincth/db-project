@@ -2,7 +2,7 @@
 
 ![Image](./assets/product.png)
 
-#### 2. Fill in the product name and price, the click publish
+#### 2. Fill in the product name and price, then click publish
 
 ![Image](./assets/product_fill.png)
 
