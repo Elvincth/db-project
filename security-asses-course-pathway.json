@@ -2,24 +2,26 @@
   "title": "Security Assessment and Identification of sensitive data/user's PII",
   "description": "Security Assessment and Identification of sensitive data/user's PII",
   "courses": [
-
     {
       "course_id": "SSL",
       "title": "Installing SSL plugin",
-      "description": "Improving website's security by installing 'Really Simple SSL' plugin"      
+      "description": "Improving website's security by installing 'Really Simple SSL' plugin"
     },
-
     {
       "course_id": "wpscan",
       "title": "Setup WPScan in wordpress",
-      "description": "Using WP scan to perform vulnerability check"      
-    } ,
-
+      "description": "Using WP scan to perform vulnerability check"
+    },
     {
       "course_id": "firewall",
       "title": "Setup firewall in wordpress",
-      "description": "Using all in one WP Security & Firewall to improve site's security"      
-    } 
-   
+      "description": "Using all in one WP Security & Firewall to improve site's security"
+    },
+    {
+      "course_id": "PII",
+      "title": "Introduction of Personally Identifiable Information(PII)",
+      "description": "Geting more knowledge about PII to protect user information"
+    }
+
   ]
 }

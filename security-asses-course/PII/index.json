@@ -1,33 +1,28 @@
 {
-  "title": "02 Setup 2FA in wordpress",
-  "description": "Using the wordpress plugin to set up 2FA",
+  "title": "Introduction of Personally Identifiable Information(PII)",
+  "description": "Geting more understanding about PII to protect user information",
   "difficulty": "Beginner",
-  "time": "15",
+  "time": "4 minutes",
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "",
+        "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "",
-        "text": "step5.md"
       }
     ],
     "intro": {
-      "foreground": "foreground.sh",
       "text": "intro.md"
     },
     "finish": {

@@ -4,7 +4,7 @@
 
 #### The WordPress is created automatically and you need to wait around 1-2 minutes for the WordPress creation.
 <br></br>
-## Access the wordpress:
+### Access the wordpress:
 
 #### You can access your WordPress website through the following link:
 `

@@ -1,28 +1,28 @@
 {
-  "title": "02 Setup 2FA in wordpress",
-  "description": "Using the wordpress plugin to set up 2FA",
-  "difficulty": "Beginner",
-  "time": "15",
+  "title": "Backup by using Mysqldump with OpenSSL encryption",
+  "description": "Securely backing up of customer/transaction data",
+  "difficulty": "Intermediate",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "",
+        "title": "Step 4",
         "text": "step4.md"
       },
       {
-        "title": "",
+        "title": "Step 5",
         "text": "step5.md"
       }
     ],
@@ -35,10 +35,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu:2004",
-    "port": "8000"
+    "imageid": "ubuntu:2004"
   }
 }
