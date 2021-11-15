@@ -1,34 +1,15 @@
-
-
-
-## **3. Setup the WP 2FA Plugins**
+### **3. Download and Activate the Plugin**
 ---
-## **Step 1:**
+### **Step 1:** 
+After login to wordpress, you can click the plugins in the menu bar and click the `Add New button` to add a new plugin for the WordPress.
 
-After activating the WP 2FA plugin, you will be brought to the setup page of the WP 2FA Plugins.To start the setup, you need to click the `Let’s get started` button to start setup.
+![Image](./assets/2FA_WordpressLeftBar.png)
+### **Step 2:**
+Input the `WP 2FA `in the search bar and the WP 2FA plug will appear
 
-![Image](./assets/Start.png)
+![Image](./assets/Searching.png)
+![Image](./assets/AfterSearch.png)
+### **Step 3:**
+Click `Install Now `button to install the plugin and after installing the `Activate` button will show up and click it to activate the plugin. After activate the plugin.
 
-## **Step2:**
-
-select the 2FA method(suggested to select all) and click the `Continue Setup` button.
-
- ![Image](./assets/2FAMethod.png)
-
-## **Step3:**
-
- Select the target user to enforce 2FA and click `continue Setup` button.
-
-![Image](./assets/2FAUser.png)
-
-## **Step4:**
- Setup a grace period for user and click `All done` to finish the setup
-
-![Image](./assets/GracePeriod.png)
-
-## **Step5:**
-The setup of the WP 2FA plugin is complete, you need to click `configure 2FA now` to configure the WP 2FA Plugin.
-
-![Image](./assets/EndSetup.png)
-
-
+![Image](./assets/Activate.png)
