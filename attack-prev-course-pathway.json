@@ -4,12 +4,12 @@
   "courses": [
     {
       "course_id": "Set up Password Manager",
-      "title": "Set up Password Manager",
+      "title": "01 Password Manage",
       "description": "Setup the Bitwarden password manager to prevent attack"
     },
     {
       "course_id": "2fa-setup",
-      "title": "Setup 2FA in wordpress",
+      "title": "02 Setup 2FA in wordpress",
       "description": "Setup Two Factor Authentication(2FA) to prevent attack "
     }
   ]

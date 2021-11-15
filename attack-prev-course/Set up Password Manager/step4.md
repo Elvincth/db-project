@@ -22,5 +22,5 @@ https://vault.bitwarden.com/{{copy}}
 ![Image](./assets/SavedItem.png)
 ![Image](./assets/SavedInfo.png)
 <br></br>
-### Apart from Using the complex password and storing it in Password Manager, there exist other methods that can prevent the brute-force attack. One of the methods is Two-factor authentication and will be talked about in the next course.
+### Apart from using the complex password and storing it in Password Manager, there exist other methods that can prevent the brute-force attack. One of the methods is Two-factor authentication and will be talked about in the next course.
 
