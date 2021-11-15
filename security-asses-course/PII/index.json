@@ -1,8 +1,8 @@
 {
-  "title": "02 Setup With Nginx",
-  "description": "",
+  "title": "Introduction of Personally Identifiable Information(PII)",
+  "description": "Geting more knowledge about PII to protect user information",
   "difficulty": "Beginner",
-  "time": "20",
+  "time": "4 minutes",
   "details": {
     "steps": [
       {
@@ -16,6 +16,10 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
       }
     ],
     "intro": {
@@ -26,9 +30,10 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu:2004",
+    "port": "8000"
   }
 }

@@ -1,65 +1,20 @@
 
-## 1. Create your Wordpress
+### 1. Access your Wordpress
 ---
 
-Docker Compose is based on a docker-compose.yml file. This file defines all of the containers and settings you need to launch your set of clusters.
+#### The WordPress is created automatically and you need to wait around 1-2 minutes for the WordPress creation.
+<br></br>
+### Access the wordpress:
 
-<pre class="file" data-filename="./docker-compose.yml" data-target="replace">
-version: "3.2"
+#### You can access your WordPress website through the following link:
+`
+https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com 
+`{{copy}}
 
-services:
-  mysql:
-    container_name: mysql
-    image: mysql:latest
-    volumes:
-      - ./db_data:/var/lib/mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: d2Oqadruj9*
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: d2Oqadruj9*
+#### Or click Dashboard tap on the right side of Katacoda like the following image:
+![Image](./assets/DashboardTap.png)
+<br></br>
 
-  wordpress:
-    container_name: wordpress
-    depends_on:
-      - mysql
-    image: wordpress:latest
-    volumes:
-      - ./wordpress_data:/var/www/html
-    ports:
-      - "8000:80"
-    restart: always
-    environment:
-      WORDPRESS_DB_HOST: mysql:3306
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: d2Oqadruj9*
-      WORDPRESS_DB_NAME: wordpress
+#### If an error exists mean the WordPress is not completely setup yet, you need wait around 30 second and click the refresh button near the Dashboard tap to refresh the Dashboard:
+![Image](./assets/RefreshButton.png)
 
-volumes:
-  db_data: {}
-  wordpress_data: {}
-</pre>
-
-#### 2. Start the WordPress and MySql container in background
-
-Run `cd tutorial`{{execute}}
-<br />
-
-Run `docker-compose up -d`{{execute}}
-
-#### 3. Check if both container is running
-
-Run `docker ps`{{execute}}
-</br>
-![Image](./assets/docker_ps.png)
-
-#### 4. Check the logs of the both container to make sure there is no errors
-
-Run `docker logs mysql`{{execute}}
-
-Run `docker logs wordpress`{{execute}}
-
-#### 5. Access your WordPress application at localhost:8000
-
-You can access you WordPress in katacoda through https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com or click on the "WordPress" tab
