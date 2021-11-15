@@ -20,6 +20,13 @@ It would include 5 files.
 </ul>
 <br></br>
 
+We can download the files into your device by pressing the exact file button.
+![Image](./assets/upExactFile.png)
+
+Click the button of `Download to your computer` for downloading each backup file to your device.
+![Image](./assets/upComputer.png)
+<br></br>
+
 ## 2. Checking the existing backups at Dropbox
 Inside the page of you Dropbox, a folder will be generated automatically in Dropbox after backup the files in WordPress.
 ![Image](./assets/upDropboxHome.png)
@@ -29,3 +36,4 @@ Inside that folder, it will contain another folder for storing the backup files 
 
 5 files which are mentioned above will also be successfully backup in Dropbox.
 ![Image](./assets/upFiles.png)
+*You could also download these 5 files at Dropbox
