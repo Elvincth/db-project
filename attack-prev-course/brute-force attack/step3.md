@@ -30,3 +30,4 @@ cd CrackList
 ```sh
 wpscan --url https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com --passwords crack.txt{{execute}}
 ```
+

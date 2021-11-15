@@ -1,11 +1,16 @@
 {
   "title": "Attack prevention",
-  "description": "",
+  "description": "Teach user how to prevent attack in wordpress",
   "courses": [
+    {
+      "course_id": "Set up Password Manager",
+      "title": "Set up Password Manager",
+      "description": "Setup the Bitwarden password manager to prevent attack"
+    },
     {
       "course_id": "2fa-setup",
       "title": "Setup 2FA in wordpress",
-      "description": "Katacoda Scenario Example"
+      "description": "Setup Two Factor Authentication(2FA) to prevent attack "
     }
   ]
 }
