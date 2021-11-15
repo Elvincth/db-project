@@ -9,5 +9,5 @@ Firewall is a is a network security system that monitors and controls incoming a
 
 In this scenario, we will introduce a useful wordpress site firewall plugin 'All In One WP Security & Firewall' which can protect your wordpress site by setting up some basic rules and block access to any important file in your wordpress.
 
-![Image](./assets/intro/ao.png)
+![Image](./assets/ao.png)
 
