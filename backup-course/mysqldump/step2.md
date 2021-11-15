@@ -8,6 +8,7 @@ Exit the mysql server by using the following statment for accessing the bash of 
 Using the following command for accessing the backup bash.
 <br>
 `cd /var/backup`{{execute}}
+<br></br>
 
 ## 2. Backup the Wordpress database
 Using the following command for creating a backup file for storing the `wordpress` database.
