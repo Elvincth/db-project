@@ -1,5 +1,5 @@
-# Step 2
-## Monitoring
+# Step 2 - Monitoring
+
 We can use gafana for monitoring
 
     select command_type,argument,user_host,event_time From mysql.general_log Where lower(convert(argument using utf8))like "select%from%wp_users%";
