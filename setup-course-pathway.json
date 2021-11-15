@@ -1,0 +1,16 @@
+{
+  "title": "Setup A Wordpress WooCommerce Platform",
+  "description": "",
+  "courses": [
+    {
+      "course_id": "woocommerce-setup",
+      "title": "01 Setup Using Docker Compose",
+      "description": "Setup Wordpress and WooCommerce using docker compose"
+    },
+    {
+      "course_id": "nginx-setup",
+      "title": "01 Setup With Nginx",
+      "description": "NGINX works perfectly well with a wide variety of applications, and WordPress is certainly one of them. NGINX’s configuration language is very powerful and straightforward if one is familiar with it, but often people coming from other servers are not sure how things work in NGINX and just copy and paste whatever they see from a blog that seems to fill their needs. Everyone, especially people new to NGINX, should check out the nginx.org documentation for an overview of how things work and should be done in NGINX."
+    }
+  ]
+}
