@@ -29,7 +29,20 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/tutorial",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Wordpress",
+        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
+  },
+  "files": [
+    "docker-compose.yml"
+  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }
