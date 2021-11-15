@@ -1,4 +1,4 @@
-## Step 3:
+
 
 ### 1. Find the plugin tab in wordpress
 
