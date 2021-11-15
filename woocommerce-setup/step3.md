@@ -12,6 +12,6 @@ Search for `WooCommerce`{{copy}}
 
 ![Image](./assets/install_now.png)
 
-#### 3. Then click "Active" to active the plugin
+#### 3. Then click "Active" to activate the plugin
 
 ![Image](./assets/active.png)
