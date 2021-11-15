@@ -1,20 +1,16 @@
-
-
-
-## **2. Download and Activate the Plugin**
+### 2. Setup your Wordpress
 ---
-## **Step 1:** 
-Click the plugins in the menu bar and click the `Add New button` to add a new plugin for the WordPress.
+### After creating the WordPress website you need set up the Wordpress website.
+<br></br>
+### **Step 1:**
+#### Select the language and press `continue` button
+![Image](./assets/Language.png)
+<br></br>
+### **Step 2:**
 
-![Katacoda Logo](./assets/2FA_WordpressLeftBar.png)
+#### you can fill the information like the following image or by your own and press the `Install WordPress` button.
+![Image](./assets/WPSetup.png)
 
-## **Step 2:**
-Input the `WP 2FA `in the search bar and the WP 2FA plug will appear
-
-![Katacoda Logo](./assets/Searching.png)
-![Katacoda Logo](./assets/AfterSearch.png)
-
-## **Step 3:**
-Click `Install Now `button to install the plugin and after installing the `Activate` button will show up and click it to activate the plugin. After activate the plugin.
-
-![Katacoda Logo](./assets/Activate.png)
+### **Step 3:**
+#### The setup is already done and you can to click the `Log in` button and input the username and password that you set to login to the WordPress
+![Image](./assets/WPLogin.png)

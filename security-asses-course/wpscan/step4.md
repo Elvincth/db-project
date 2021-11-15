@@ -10,13 +10,13 @@ Congratulations, the 'WPScan' plugin should working fine when you have come to t
 * Theme detail
 * Security check
 
-![Image](./assets/step4/wpscan4-3.JPG)
+![Image](./assets/wpscan4-3.png)
 
 ### 2. Start the security checking  
 
 When you scroll down to the 'Security Checks', you can see there are multiples type of checking that can be perform. Click 'Run' to all choices and perform a full scan.
 
-![Image](./assets/step4/wpscan4-4.JPG)
+![Image](./assets/wpscan4-4.png)
 
 ### 3. Checking the scanning report
 
@@ -25,7 +25,7 @@ When the full scanning is done. You should be alerted by the 'Weak Password' and
 * Weak password: Since the account and passsword is so weak (user:admin password:admin)
 * XML-RPC Enabled: A cross-platform communication protocol that common to hack
 
-![Image](./assets/step4/wpscan4-5.JPG)
+![Image](./assets/wpscan4-5.png)
 
 
 

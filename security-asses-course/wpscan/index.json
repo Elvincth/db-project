@@ -1,24 +1,24 @@
 {
-  "title": "Setup WPScan in wordpress",
+  "title": "03 Setup WPScan in wordpress",
   "description": "Using WP scan to perform vulnerability check",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Prepare the environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Login to your wordpress",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: Installation of the WPScan plugin",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4: WPScan",
         "text": "step4.md"
       }
     ],

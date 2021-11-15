@@ -1,6 +1,6 @@
 </br>
 
-#### 1. Setup your Wordpress and WooCommerce stack
+#### 1. Setup your Wordpress 
 
 Docker Compose is based on a docker-compose.yml file. This file defines all of the containers and settings you need to launch your set of clusters.
 
@@ -43,12 +43,11 @@ volumes:
 
 #### 2. Start the WordPress and MySql container in background
 Run `cd tutorial`{{execute}}
+</br>
 Run `docker-compose up -d`{{execute}}
 
 #### 3. Check if both container is running
 
-Run `cd tutorial`{{execute}}
-</br>
 Run `docker ps`{{execute}}
 </br>
 ![Image](./assets/docker_ps.png)

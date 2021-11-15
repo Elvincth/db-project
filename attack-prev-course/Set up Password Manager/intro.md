@@ -1,0 +1,1 @@
+This course will teach you how to set up a WordPress with security password by using different methods such as password management to prevent brute-force attacks.
