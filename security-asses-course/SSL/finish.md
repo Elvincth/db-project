@@ -5,7 +5,7 @@ You just learnt what is SSL and how to apply SSL to your own wordpress site.
 Remember to check if the SSL installation is successful.
 <br />
 
-![Image](./assets/SSL-final/SSL-Final1.JPG)
+![Image](./assets/SSL-Final1.png)
 
 Succesful SSL implement will show a lock with HTTPS.
 <br />
