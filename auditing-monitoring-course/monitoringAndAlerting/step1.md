@@ -61,5 +61,17 @@
     general_log = 1
 
 ## Set up for wordpress
-
 Download plusin for restoring all sample data 
+![Image](./assets/plusinDownload.png)
+
+Then, upload sample data into the wordpress
+
+![Image](./assets/uploadFile.png)
+
+Select all components to restore
+
+![Image](./assets/selectall.png)
+
+Finally, you can see the successful message like this, you can return to the main page of wordpress
+
+![Image](./assets/restoreDone.png)
