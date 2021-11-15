@@ -22,6 +22,6 @@ access the CrackList file using the following command:
 ## Step 4:
 ### Use the following command to enforce the Brute-force attack
 `
-wpscan --url https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com --passwords crack.txt{{execute}}
+wpscan --url https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com --passwords crack.txt
 `{{execute}}
 
