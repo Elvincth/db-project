@@ -1,4 +1,4 @@
-## **Step 3: Linking with Dropbox**
+## **Linking with Dropbox**
 ---
 We would like transfer the backup files and database to a cloud storage platform `Dropbox`.
 

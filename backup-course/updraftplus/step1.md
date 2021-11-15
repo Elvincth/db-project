@@ -1,4 +1,4 @@
-## **Step 1: Download and Activate Updraftplus Plugin**
+## **Download and Activate Updraftplus Plugin**
 ---
 ## 1. Add new plugin
 Click the plugins in the menu bar and click the `Add New button` to add a new plugin for the WordPress.
