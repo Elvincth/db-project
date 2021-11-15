@@ -1,5 +1,4 @@
 git clone https://github.com/Elvincth/wordpress-test
-sudo chown 999:999 wordpress-test
 cd wordpress-test
-sudo chown 999:999 ./db_data
+sudo chmod -R 777 .
 docker-compose up -d
