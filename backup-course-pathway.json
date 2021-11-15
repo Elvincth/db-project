@@ -1,0 +1,11 @@
+{
+  "title": "Backup Course",
+  "description": "Securely backing up of customer/transaction data",
+  "courses": [
+    {
+      "course_id": "updraftplus",
+      "title": "Installing Updraftplus plugin",
+      "description": "Securely backing up of customer/transaction data"
+    }
+  ]
+}
