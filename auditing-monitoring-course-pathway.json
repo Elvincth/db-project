@@ -6,6 +6,13 @@
       "course_id": "Malcare",
       "title": "Installing Updraftplus plugin",
       "description": "Monitoring data breach events from external and internal attacks"      
+    },
+
+    {
+      "course_id": "monitoringAndAlerting",
+      "title": "monitoring and alerting",
+      "description": " "      
     }
+
   ]
 }
