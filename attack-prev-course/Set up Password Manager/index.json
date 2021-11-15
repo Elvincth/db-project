@@ -1,29 +1,25 @@
 {
-  "title": "02 Setup 2FA in wordpress",
-  "description": "Using the wordpress plugin to set up 2FA",
+  "title": "01 Password Manage",
+  "description": "01 Password Management",
   "difficulty": "Beginner",
-  "time": "15",
+  "time": "15min",
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
-        "title": "",
+        "title": "Step 3",
         "text": "step3.md"
       },
       {
-        "title": "",
+        "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "",
-        "text": "step5.md"
       }
     ],
     "intro": {
