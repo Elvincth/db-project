@@ -18,3 +18,6 @@ Input name, type of receive alert message and Webhook URL
 Enter to the panel which is monitoring atrack and want to get alert message, and refer to the below setting
 ![Image](./assets/PanelAlertSetting.png)
 In this part, it sets the time and the condition for sending the alert message while the system is suspiciously attack
+
+## Receive Message via Discord
+![Image](./assets/AlertMessage.png)
