@@ -64,7 +64,7 @@
 Download plusin for restoring all sample data 
 ![Image](./assets/plusinDownload.png)
 
-Then, upload sample data into the wordpress
+Then, upload sample data(customers' data) into the wordpress
 
 ![Image](./assets/uploadFile.png)
 
@@ -75,3 +75,7 @@ Select all components to restore
 Finally, you can see the successful message like this, you can return to the main page of wordpress
 
 ![Image](./assets/restoreDone.png)
+
+### You can use the command to check whether it is uploaded
+    select * from wordpress.wp_users;
+
