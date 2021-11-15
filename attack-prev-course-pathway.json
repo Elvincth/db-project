@@ -4,7 +4,7 @@
   "courses": [
     {
       "course_id": "Set up Password Manager",
-      "title": "01 Password Manage",
+      "title": "01 Password Management",
       "description": "Setup the Bitwarden password manager to prevent attack"
     },
     {
