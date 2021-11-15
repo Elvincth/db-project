@@ -5,7 +5,7 @@ After login to wordpress, you can click the plugins in the menu bar and click th
 
 ![Image](./assets/2FA_WordpressLeftBar.png)
 ### **Step 2:**
-Input the `WP 2FA `in the search bar and the WP 2FA plug will appear
+Input the `WP 2FA `{{copy}}in the search bar and the WP 2FA plug will appear
 
 ![Image](./assets/Searching.png)
 ![Image](./assets/AfterSearch.png)
