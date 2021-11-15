@@ -1,4 +1,4 @@
-## **Step 4: Backup your website**
+## **Backup your website**
 ---
 ## 1. Backup website locally in WordPress
 In the home page of Updraftplus, we should firstly click the `Backup Now`.

@@ -1,4 +1,4 @@
-## **Step 5: Restore backup to your website**
+## **Restore backup to your website**
 ---
 ## 1. Checking the backup files at your device
 You should make sure all the backup files are already downloaded to your device.

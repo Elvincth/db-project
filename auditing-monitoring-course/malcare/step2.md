@@ -1,4 +1,4 @@
-## **Step2: Setup Malcare Plugin**
+## **Setup Malcare Plugin**
 ---
 The setup page of `Malcare` will appear automatically after clicking the `Activate` button.
 ![Image](./assets/malcareSetup.png)

@@ -1,4 +1,4 @@
-## **Step 2: Setup Updraftplus plugin**
+## **Setup Updraftplus plugin**
 ---
 The plugin page will be redirected automatically after clicking the `Activate` button. 
 
