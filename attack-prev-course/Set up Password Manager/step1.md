@@ -2,8 +2,8 @@
 ## 1. Access your Wordpress
 ---
 
-### The WordPress is created automatically and you need to wait around 1-2 minutes for the WordPress creation.
-<br></br>
+## The wordpress is creating automatically and you need to wait around 1-2 minute for the wordpress create.
+
 ## Access the wordpress:
 
 ### You can access your WordPress website through the link:
