@@ -30,3 +30,8 @@ The complete page will appear automatically after clicking the `Save Changes` bu
 ![Image](./assets/upComplete.png)
 
 It will rediret to the login page after clicking the `Complete` button and we should login back to the home page of Updraftplus.
+
+## 3. Setup you Dropbox account
+Firstly, you need to have a Dropbox account for storing the backup files.
+
+Link for Dropbox: https://www.dropbox.com/
