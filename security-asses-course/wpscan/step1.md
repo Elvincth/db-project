@@ -42,7 +42,7 @@ volumes:
 </pre>
 
 #### 2. Start the WordPress and MySql container in background
-Run 
+Run `cd tutorial`{{execute}}
 Run `docker-compose up -d`{{execute}}
 
 #### 3. Check if both container is running
