@@ -1,5 +1,5 @@
 {
-  "title": "01 Password Manage",
+  "title": "01 Password Management",
   "description": "01 Password Management",
   "difficulty": "Beginner",
   "time": "15min",
@@ -23,7 +23,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
