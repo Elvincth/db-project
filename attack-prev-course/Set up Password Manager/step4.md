@@ -1,5 +1,8 @@
 ### **4. Prevent Brute-Force Attack**
+
 ---
+#### There are several methods that can prevent the Brute-force attack and the first one is to create a complex password and manage it using the password manager. Let try it now 
+<br></br>
 ### **Step 1: Use Password generate by WordPress**
 #### When you set up your WordPress website. It will suggest a complex password like the following image:
 

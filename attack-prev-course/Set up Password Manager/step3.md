@@ -25,3 +25,8 @@ access the CrackList file using the following command:
 wpscan --url https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com --passwords crack.txt
 `{{execute}}
 
+#### If your password is included in the list of the crack.txt, After the brute-force attack command run you will see the password and username of the user that you created like the following image:
+
+![Image](./assets/CrackedAC.png)
+
+If it shows your username and password correctly mean that your password is leaked by the brute-force attack
