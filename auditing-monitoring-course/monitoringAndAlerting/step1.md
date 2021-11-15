@@ -1,6 +1,4 @@
-# Step 1
-
-## Basic Set up 
+# Step 1 - Basic Set up 
 ### Before starting this scenarios, we should set up the docker compose file (docker-compose.yml):
     
     version: "3.2"
