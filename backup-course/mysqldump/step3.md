@@ -34,3 +34,14 @@ As for the command:
         *The format of "enc" means this file is an encrypted file.
     </li>
 </ul>
+<br></br>
+
+## 2. Confirm the backup file is exist
+Using the following command for listing out all files.
+<br>
+`ls`{{execute}}
+
+Expected Output:
+![Image](./assets/checkEn.png)
+
+We can see that the encrypted backup file of "wordpress_backup.enc" is already been created. It means that we are successfully encrypting the `wordpress_backup.sql` backup file.
