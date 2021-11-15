@@ -17,4 +17,20 @@ The password of Verifying - enter aes-256-cbc encryption is:
 
 As for the command:
 <ul>
+    <li>
+        <b>"openssl"</b> is the method that we would like to use.
+    </li>
+    <li>
+        <b>"enc"</b> means encryption method.
+    </li>
+    <li>
+        <b>"aes-256-cbc"</b> means that we would like to employ cryptographic keys of 256bit length for the encryption.
+    </li>
+    <li>
+        <b>"-in wordpress_backup.sql"</b> means the input file is "wordpress_backup.sql" file.
+    </li>
+    <li>
+        <b>"-out wordpress_backup.enc"</b> means the output file is "wordpress_backup.enc" file that is customise by ourselves.<br>
+        *The format of "enc" means this file is an encrypted file.
+    </li>
 </ul>
