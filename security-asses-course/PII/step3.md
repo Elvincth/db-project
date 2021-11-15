@@ -1,8 +1,5 @@
 </br>
 
-## Step 3:
-
-</br>
 
 #### 1. Select your preferred WordPress language (English)
 
