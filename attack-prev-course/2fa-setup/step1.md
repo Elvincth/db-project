@@ -12,6 +12,7 @@ https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
 `{{copy}}
 
  Or click Dashboard tap on the right side of Katacoda like the following image:
+ 
 ![Image](./assets/DashboardTap.png)
 <br></br>
 

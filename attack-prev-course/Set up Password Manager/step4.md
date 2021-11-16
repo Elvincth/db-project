@@ -21,6 +21,7 @@
 <br></br>
 
  After you click the `Save` button, an item will show up to view the saved information you need to click the name tag of the item to view or edit the information:
+ 
 ![Image](./assets/SavedItem.png)
 ![Image](./assets/SavedInfo.png)
 <br></br>

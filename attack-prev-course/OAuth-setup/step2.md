@@ -9,7 +9,10 @@
 ### **Step 2:**
 
  you can fill the information like the following image or by your own and press the `Install WordPress` button.
+ 
 ![Image](./assets/WPSetup.png)
+<br></br>
+
 
 ### **Step 3:**
  The setup is already done and you can to click the `Log in` button to login to the WordPress
