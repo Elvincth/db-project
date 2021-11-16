@@ -97,3 +97,7 @@ Once the rule's criteria are met we can alert it to a connector. In this case, w
 
 ## Simulate a brute force attack in the database container
 
+Run `docker exec -it db bash`{{execute}}
+
+Run `for i in {1..20}; do mysql -u root; done`{{execute}} for simulating 
+
