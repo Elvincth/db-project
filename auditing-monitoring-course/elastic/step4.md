@@ -94,3 +94,6 @@ Once the rule's criteria are met we can alert it to a connector. In this case, w
 7. Click **Create & activate rule**
 
 ![Image](./assets/slack_4.png)
+
+## Simulate a brute force attack in the database container
+
