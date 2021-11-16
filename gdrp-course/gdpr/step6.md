@@ -23,5 +23,31 @@ Dashboard tabs include:
 ![Image](./assets/gd4-6.png)
 
 
+### Cookie list
+It will list cookies' types, name and category for chekcing
+![Image](./assets/gd4-8.png)
+
+### Cookie category
+Allow to add cookies category by seetting name, slug desciption and head or body script.
+![Image](./assets/gd4-9.png)
+
+### Cookie scanner
+Allow to scan all cookies in your site. 
+![Image](./assets/gd4-10.png)
+
+### Policy generator
+Generate policy for site user to understand how we use the cookies.
+![Image](./assets/gd4-13.png)
+
+### Script blocking
+Blocking script such as Facebook Pixel.
+![Image](./assets/gd4-14.png)
+
+### Privacy overview
+Allow admin to preview and edit the privacy overview
+![Image](./assets/gd4-15.png)
+
+
+
 
 
