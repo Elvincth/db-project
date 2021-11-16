@@ -1,4 +1,4 @@
-### 3. Setup your the the Nextend Social plugin
+### **3. Download and Activate the Plugin**
 ---
 ### **Step 1:** 
 After login to wordpress, you can click the plugins in the menu bar and click the `Add New button` to add a new plugin for the WordPress.
@@ -6,7 +6,7 @@ After login to wordpress, you can click the plugins in the menu bar and click th
 ![Image](./assets/2FA_WordpressLeftBar.png)
 <br></br>
 ### **Step 2:**
-Input the `Nextend Social Login`{{copy}}in the search bar and Se Login plugin will appear
+Input the `Nextend Social Login`{{copy}}in the search bar and the plugin will appear
 
 ![Image](./assets/SearchPlugin.png)
 ![Image](./assets/NextendSocialLoginPlugin.png)
