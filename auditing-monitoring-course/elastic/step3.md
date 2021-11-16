@@ -9,7 +9,7 @@ You can learn more from [here](https://www.elastic.co/guide/en/kibana/current/in
 
 ### Access Kibana
 
-After running `docker-compose up -d` (we have executed for you),You can access you Kibana in katacoda through https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com or click on the "Kibana" tab.
+After running `docker-compose up -d` (we have executed for you), you can access you Kibana in katacoda through https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com or click on the "Kibana" tab.
 
 First, we should create an index pattern for filebeat so that we could explore it in Kibana.
 <br/>

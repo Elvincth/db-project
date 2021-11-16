@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Setup the environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Log in to MYSQL",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: User create and privilege granting",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4: Configuration testing",
         "text": "step4.md"
       }
     ],

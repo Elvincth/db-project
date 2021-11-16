@@ -1,6 +1,6 @@
 {
   "title": "Attack prevention",
-  "description": "Teach user how to prevent attack in wordpress",
+  "description": "Teach user how to prevent attack in WordPress",
   "courses": [
     {
       "course_id": "Set up Password Manager",
@@ -9,18 +9,18 @@
     },
     {
       "course_id": "2fa-setup",
-      "title": "02 Setup 2FA in wordpress",
+      "title": "02 Setup 2FA in WordPress",
       "description": "Setup Two Factor Authentication(2FA) to prevent attack "
     },
     {
       "course_id": "OAuth-setup",
-      "title": "03 Setup OAuth in wordpress",
-      "description": "Using the wordpress plugin to set up OAuth"
+      "title": "03 Setup OAuth in WordPress",
+      "description": "Using the WordPress plugin to set up OAuth"
     },
     {
       "course_id": "Traffic Control",
       "title": "04 Traffic Control",
-      "description": "Setup the firewall using the plugin CleanTalk and use the traffic control of the firewall to prevent the ddos attack"
+      "description": "Setup the firewall using the plugin CleanTalk and use the traffic control of the firewall to prevent the DDoS attack"
     }
   ]
 }
