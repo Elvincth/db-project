@@ -46,7 +46,7 @@ We have setup a default login **username** and **password** for you (Please make
 
 ![Image](./assets/index_db.png)
 
-You will be able to see the parsed log data through: [here](<https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1M%2FM,to:now))&_a=(columns:!(audit_record.sqltext,audit_record.name,audit_record.status,audit_record.user,audit_record.ip,audit_record.host,audit_record.connection_id,audit_record.db),filters:!(),index:ef34b830-46b4-11ec-b246-8b4923ddc10f,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))>)
+You will be able to see the parsed log data through [here](<https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1M%2FM,to:now))&_a=(columns:!(audit_record.sqltext,audit_record.name,audit_record.status,audit_record.user,audit_record.ip,audit_record.host,audit_record.connection_id,audit_record.db),filters:!(),index:ef34b830-46b4-11ec-b246-8b4923ddc10f,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))>)
 
 ![Image](./assets/parsed_db.png)
 

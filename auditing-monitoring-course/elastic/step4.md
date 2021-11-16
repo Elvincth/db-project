@@ -4,9 +4,13 @@ A brute force attack, also known as exhaustive search, is a cryptographic hack t
 
 You can learn more from [here](https://www.forcepoint.com/zh-hant/cyber-edu/brute-force-attack)
 
+<br/>
+
 ### Scenario
 
 An attacker used social engineering tactics on one of our database administrators, the attacker now gained access to our remote mysql container and is now trying to brute force the database root account password.
+
+<br/>
 
 ### Create an detection rule
 
@@ -21,6 +25,8 @@ You can learn more from [here](https://www.elastic.co/guide/en/security/current/
 2. Under the **detect** title click **Rules**, then click **Create new rules**
 
 ![Image](./assets/new_rule.png)
+
+<br/>
 
 ### Define rule
 
@@ -43,6 +49,8 @@ You can learn more from [here](https://www.elastic.co/guide/en/security/current/
 
 ![Image](./assets/rule_1_2.png)
 
+<br/>
+
 ### About rule
 
 For the **Name** enter `Possible brute force attack`{{copy}}
@@ -53,11 +61,15 @@ Default severity `high`, the click **Continue**
 
 ![Image](./assets/rule_1_3.png)
 
+<br/>
+
 ## Schedule Rule
 
 For testing purpose we set schedule to run in every `5 seconds`, the click **Continue**
 
 ![Image](./assets/rule_1_4.png)
+
+<br/>
 
 ## Alerting
 
