@@ -37,11 +37,11 @@ For detecting this kind of attacks, we could create a detection rules that would
 
 You can learn more from [here](https://www.elastic.co/guide/en/security/current/rules-ui-create.html#rules-ui-create)
 
-1. Open the main menu, then click to Security > Overview.
+Open the main menu, then click to Security > Overview.
 
 ![Image](./assets/sec_menu.png)
 
-2. Under the **detect** title click **Rules**, then click **Create new rules**
+Under the **detect** title click **Rules**, then click **Create new rules**
 
 ![Image](./assets/new_rule.png)
 
@@ -54,11 +54,11 @@ You can learn more from [here](https://www.elastic.co/guide/en/security/current/
 
 ![Image](./assets/rule_2.png)
 
-3. Enter `http.request.method : *`{{copy}} for the KQL query
-   <br/>
-   <br/>
-   `*` Apache access.log will logs all request and response records, so we can just select it all
-   <br/>
+Enter `http.request.method : *`{{copy}} for the KQL query
+<br/>
+<br/>
+`*` Apache access.log will logs all request and response records, so we can just select it all
+<br/>
 
 (The [Kibana Query Language](https://www.elastic.co/guide/en/kibana/7.15/kuery-query.html) (KQL) offers a simplified query syntax and support for scripted fields. )
 
@@ -109,11 +109,39 @@ We have setup the Slack webhook in `step4`, so we can just click the Slack icon 
 
 ![Image](./assets/rule_2_5.png)
 
-## Simulate a javascript based DOS attack
+## Simulate a JavaScript-based DOS attack
 
-Please use a chrome or firefox browser
+Please use **chrome** browser for the simulation:
+</br>
 
-![Image](./assets/slack_5.png)
+Please setup the wordpress and go to the **admin dashboard home page**. (You can access you WordPress in katacoda through https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com or click on the "WordPress" tab.)
+
+![Image](./assets/wp.png)
+
+Then, open the [chrome dev tools](https://developer.chrome.com/docs/devtools/open/)
+
+![Image](./assets/dev.png)
+
+Then click on the **console** tab and paste the following javascript into the console. Then press **enter** to run it.
+
+<pre class="file" data-target="clipboard">
+function imgflood() {
+  let URI = '/wp-admin/ddos.php?'
+  let pic = new Image()
+  let rand = Math.floor(Math.random() * 1000)
+  pic.src = window.location.origin+URI+rand+'=val'
+}
+
+let ddosTimer = setInterval(imgflood, 1); //Run it every 1 ms
+
+setTimeout(() => clearInterval(ddosTimer), 15000); //Stop running in 15 sec
+</pre>
+
+![Image](./assets/cn.png)
+
+The script will generate 3744 invalid HTTP requests to the wordpress server in 15 seconds, making this a Layer 7 attack. You can learn more from [here](https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/)
+
+![Image](./assets/net.png)
 
 In security > overview you will also see alert is triggered
 
