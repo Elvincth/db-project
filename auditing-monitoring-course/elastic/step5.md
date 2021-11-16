@@ -1,8 +1,15 @@
-## What is brute force attack?
+## What is DDOS attack?
 
-A brute force attack, also known as exhaustive search, is a cryptographic hack that relies on guessing possible combinations of the target password until the correct one is found. The longer the password, the more combinations need to be tested. Brute force attacks can be time consuming and difficult, and sometimes impossible, to perform if methods such as data obfuscation are used. However, if the password is weak, it may take only a few seconds and require almost no effort. For an attacker, weak passwords are like shooting fish in a barrel, which is why all organizations should enforce strong password policies across all users and systems.
+A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.
 
-You can learn more from [here](https://www.forcepoint.com/zh-hant/cyber-edu/brute-force-attack)
+DDoS attacks achieve effectiveness by utilizing multiple compromised computer systems as sources of attack traffic. Exploited machines can include computers and other networked resources such as IoT devices.
+
+From a high level, a DDoS attack is like an unexpected traffic jam clogging up the highway, preventing regular traffic from arriving at its destination.
+
+You can learn more from [here](https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/)
+Source: Cloudflare
+
+![Image](./assets/ddos.png)
 
 <br/>
 
