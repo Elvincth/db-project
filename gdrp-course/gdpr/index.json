@@ -10,16 +10,24 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2:",
+        "title": "How to apply GDPR to wordpress",
         "text": "step2.md"
       },
       {
-        "title": "Step 3:",
+        "title": "Step 1: Setup your environment",
         "text": "step3.md"
       },
       {
-        "title": "Step 4:",
+        "title": "Step 2: Go into your wordpress",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 3: Install the plugin",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 4: Plugin introduction",
+        "text": "step6.md"
       }
     ],
     "intro": {
