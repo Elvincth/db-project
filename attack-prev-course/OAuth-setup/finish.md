@@ -1,0 +1,1 @@
+Well done you have set up OAuth in wordpress successfully.

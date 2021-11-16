@@ -14,13 +14,13 @@ After Select the 2FA authentication method, a QR code will show up
 ### **Step 3:**
 To set up the 2FA method you need to download the Google Authenticator extension or application using the following Link:
 
-#### *Extensionx Version:*
+ *Extensionx Version:*
 `https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=zh-TW`{{copy}}
 
-#### *APK Version:*
+ *APK Version:*
 `https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=zh_HK&gl=US`{{copy}}
 
-#### *IOS Version*
+ *IOS Version*
 `https://apps.apple.com/us/app/google-authenticator/id388497605`{{copy}}
 <br></br>
 ### **Step 4:**

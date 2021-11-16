@@ -12,5 +12,6 @@
 ![Image](./assets/WPSetup.png)
 
 ### **Step 3:**
- The setup is already done and you can to click the `Log in` button and input the username and password that you set to login to the WordPress
+ The setup is already done and you can to click the `Log in` button to login to the WordPress
+
 ![Image](./assets/WPLogin.png)
