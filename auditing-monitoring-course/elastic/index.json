@@ -18,16 +18,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Alerting and detecting brute force attack form external attackers",
+        "title": "Step 4 - Alerting and detecting brute force attack form insider attackers",
         "text": "step4.md"
       },
       {
         "title": "Step 5 - Alerting and DOS/DDOS form external attackers",
         "text": "step5.md"
-      },
-      {
-        "title": "Step 6 - Insider attack",
-        "text": "step6.md"
       }
     ],
     "intro": {
