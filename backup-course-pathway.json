@@ -4,12 +4,12 @@
   "courses": [
     {
       "course_id": "updraftplus",
-      "title": "Installing Updraftplus plugin",
+      "title": "01 Installing Updraftplus plugin",
       "description": "Securely backing up of customer/transaction data"
     },
     {
       "course_id": "mysqldump",
-      "title": "Backup by using Mysqldump with OpenSSL encryption",
+      "title": "02 Backup by using Mysqldump with OpenSSL encryption",
       "description": "Securely backing up of customer/transaction data"
     }
   ]

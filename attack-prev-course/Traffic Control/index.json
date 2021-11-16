@@ -1,6 +1,6 @@
 {
   "title": "04 Traffic Control",
-  "description": "Setup the firewall using the plugin CleanTalk and use the traffic control of the firewall to prevent the ddos attack",
+  "description": "Setup the firewall using the plugin CleanTalk and use the traffic control of the firewall to prevent the DDoS attack",
   "difficulty": "Intermediate",
   "time": "10",
   "details": {
