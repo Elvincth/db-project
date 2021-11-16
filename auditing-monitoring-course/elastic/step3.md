@@ -46,7 +46,8 @@ We have setup a default login **username** and **password** for you (Please make
 
 ![Image](./assets/index_db.png)
 
-You will be able to see the parsed log data through [here](<https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1M%2FM,to:now))&_a=(columns:!(audit_record.sqltext,audit_record.name,audit_record.status,audit_record.user,audit_record.ip,audit_record.host,audit_record.connection_id,audit_record.db),filters:!(),index:ef34b830-46b4-11ec-b246-8b4923ddc10f,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))>)
+You will be able to see the parsed log data through main menu > discover
+(Select `db-*` as index pattern)
 
 ![Image](./assets/parsed_db.png)
 
@@ -60,8 +61,11 @@ You will be able to see the parsed log data through [here](<https://[[HOST_SUBDO
 
 3. Click Create index pattern
 
-![Image](./assets/parsed_ap.png)
+![Image](./assets/index_ap.png)
 
-You will be able to see the parsed log data through [here](<https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com/app/discover#/?_g=(filters:!(),query:(language:kuery,query:''),refreshInterval:(pause:!t,value:0),time:(from:now%2Fd,to:now%2Fd))&_a=(columns:!(http.request.method,http.request.referrer,http.response.body.bytes,http.version,http.response.status_code,source.ip,source.address,event.dataset,error.message),filters:!(),index:e6e05850-46b5-11ec-b246-8b4923ddc10f,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))>)
+You will be able to see the parsed log data through main menu > discover
+(Select `apache-*` as index pattern)
+
+![Image](./assets/parsed_ap.png)
 
 <br/>
