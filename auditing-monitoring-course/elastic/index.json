@@ -69,15 +69,6 @@
       }
     ]
   },
-  "files": [
-    "docker-compose.yml",
-    "elasticsearch.yml",
-    "filebeat_apache.yml",
-    "filebeat_db.yml",
-    "kibana.yml",
-    "my.cnf",
-    "init.sql"
-  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }
