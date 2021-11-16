@@ -7,8 +7,7 @@ You can learn more from [here](https://www.forcepoint.com/zh-hant/cyber-edu/brut
 <br/>
 
 ### Scenario
-
-An attacker used social engineering tactics on one of our database administrators, the attacker now gained access to our remote mysql container and is now trying to brute force the database root account password.
+A developer have access to our remote mysql container, ba A developer has access to our remote mysql container, but he is not a database administrator and he doesn't have access to all the tables.
 
 <br/>
 

@@ -26,8 +26,7 @@ Source: Cloudflare
 <br/>
 
 ### Scenario
-
-Our wordpress site suddenly became slow because an attacker DDOSed our apache web server that hosts wordpress. Now we need to create an alert to detect this attack so that we can prevent it from happening.
+A developer has access to our remote mysql container, but he is not a database administrator and he does not have access to all the tables. He wants to steal our ALL company's data, he knows our DBA username and now he is trying to brute force the DBA password. 
 
 <br/>
 
