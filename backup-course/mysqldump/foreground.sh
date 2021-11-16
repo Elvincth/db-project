@@ -1,6 +1,7 @@
-git clone https://github.com/Elvincth/wordpress-test
+git clone https://github.com/BoGor918/wordpress-test-1.git
 cd wordpress-test
 mkdir db_data
 mkdir wordpress_data
+mkdir backup
 sudo chmod -R 777 .
 docker-compose up -d
