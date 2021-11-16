@@ -109,13 +109,9 @@ We have setup the Slack webhook in `step4`, so we can just click the Slack icon 
 
 ![Image](./assets/rule_2_5.png)
 
-## Simulate a brute force attack in the database container
+## Simulate a javascript based DOS attack
 
-Run `docker exec -it db bash`{{execute}}
-
-Run `for i in {1..20}; do mysql -u root; done`{{execute}} for simulating brute force attack (generate fail login for 10 times)
-
-You will now see an alert message pop up in your slack channel
+Please use a chrome or firefox browser
 
 ![Image](./assets/slack_5.png)
 
