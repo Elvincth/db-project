@@ -90,7 +90,7 @@ please click the `General` button in the `Settings` and tick the box in the Memb
 
 ![Image](./assets/General.png)
 
-![Image](./assets/Tick.png)
+![Image](./assets/tick.png)
 
 ![Image](./assets/SaveChanges.png)
 
