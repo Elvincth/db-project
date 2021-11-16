@@ -99,5 +99,12 @@ Once the rule's criteria are met we can alert it to a connector. In this case, w
 
 Run `docker exec -it db bash`{{execute}}
 
-Run `for i in {1..20}; do mysql -u root; done`{{execute}} for simulating 
+Run `for i in {1..20}; do mysql -u root; done`{{execute}} for simulating brute force attack (generate fail login for 10 times)
 
+You will now see an alert pop up in your slack channel
+
+![Image](./assets/slack_5.png)
+
+In security > overview you will also see alert is triggered
+
+![Image](./assets/slack_6.png)
