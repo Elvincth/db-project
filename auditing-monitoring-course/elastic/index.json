@@ -56,7 +56,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorial",
+    "uieditorpath": "/root/docker-EFK",
     "showdashboard": true,
     "dashboards": [
       {
