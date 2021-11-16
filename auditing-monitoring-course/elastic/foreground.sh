@@ -1,3 +1,7 @@
 git clone https://github.com/Elvincth/docker-EFK.git
 cd docker-EFK
-sudo chmod -R 777 .
+mkdir db_data
+mkdir es_data
+sudo chown 999:999 ./db_data
+sudo chown -R 1000:1000 ./es_data
+docker-compose up -d

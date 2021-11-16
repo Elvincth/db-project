@@ -18,15 +18,15 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Filtering percona audit logs",
+        "title": "Step 4 - Alerting and detecting brute force attack form external attackers",
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Audit rules for External Attack - Brute force attack",
+        "title": "Step 5 - Alerting and DOS/DDOS form external attackers",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Step 6 - ",
         "text": "step6.md"
       },
       {

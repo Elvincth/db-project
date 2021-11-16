@@ -1,0 +1,43 @@
+{
+  "title": "04 Traffic Control",
+  "description": "Setup the firewall using the plugin CleanTalk and use the traffic control of the firewall to prevent the ddos attack",
+  "difficulty": "Intermediate",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      },
+      {
+        "title": "",
+        "text": "step2.md"
+      },
+      {
+        "title": "",
+        "text": "step3.md"
+      },
+      {
+        "title": "",
+        "text": "step4.md"
+      },
+      {
+        "title": "",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "foreground": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
