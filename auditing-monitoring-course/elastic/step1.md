@@ -22,7 +22,7 @@ Adding the following statement, create a custom configuration file (my.cnf) in t
 
 In the my.cnf file, which use for storing all log data and format it as. json
 
-## Under the wordpress container:=
+## Under the wordpress container:
 
 <li>the wordpress is ports 8000</li>
 Mounting the apache_logs to /var/log/apache2/ folder, which would record log data about events that process on the Apache web server. Passing the Apache logs to Filebeat then transfer to elastic. Startup by adding the following statement:
