@@ -98,3 +98,8 @@ volumes:
   es_data: {}
   apache_logs: {}
 </pre>
+
+
+In db container,
+
+`./init.sql:/docker-entrypoint-initdb.d/init.sql`
