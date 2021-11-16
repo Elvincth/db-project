@@ -6,9 +6,7 @@ Let's explore the `docker-compose.yml`
 
 After clone the docker-compose.yml file, you need to click the “refresh tree” button to refresh the file. You can see there are few configurations file which show in the editor. Setting up and follow the content in those files.
 
-## <b><u>In docker-compose.yml file </b></u>
-
-### <b>Under the mysql container: </b>
+### Under the mysql container:
 
 <li>The mysql password is set as d2Oqadruj9* </li>
 <li>The mysql ports is set as 13306</li>
@@ -24,7 +22,7 @@ Adding the following statement, create a custom configuration file (my.cnf) in t
 
 In the my.cnf file, which use for storing all log data and format it as. json
 
-## <b>Under the wordpress container:</b>
+## Under the wordpress container:=
 
 <li>the wordpress is ports 8000</li>
 Mounting the apache_logs to /var/log/apache2/ folder, which would record log data about events that process on the Apache web server. Passing the Apache logs to Filebeat then transfer to elastic. Startup by adding the following statement:
