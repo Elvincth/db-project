@@ -56,7 +56,7 @@ Run `docker-compose up -d`{{execute}}
 
 Run `docker ps`{{execute}}
 </br>
-![Image](./step2photo/PII1.png)
+![Image](./assets/PII1.png)
 
 </br>
 

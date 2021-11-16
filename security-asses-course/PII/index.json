@@ -1,5 +1,5 @@
 {
-  "title": "Introduction of Personally Identifiable Information(PII)",
+  "title": "01 Introduction of Personally Identifiable Information(PII)",
   "description": "Geting more understanding about PII to protect user information",
   "difficulty": "Beginner",
   "time": "4 minutes",
@@ -30,10 +30,20 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/tutorial",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Wordpress",
+        "href": "https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
   },
+  "files": [
+    "docker-compose.yml"
+  ],
   "backend": {
-    "imageid": "ubuntu:2004",
-    "port": "8000"
+    "imageid": "ubuntu:2004"
   }
 }

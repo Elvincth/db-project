@@ -1,25 +1,25 @@
 {
-  "title": "Installing SSL plugin",
+  "title": "02 Installing SSL plugin",
   "description": "Improving website's security by installing 'Really Simple SSL' plugin",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Prepare the environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Login to your wordpress",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: Installation of the SSL plugin",
         "text": "step3.md"
       },
 
       {
-        "title": "Step 4",
+        "title": "Step 4: Really Simple SSL",
         "text": "step4.md"
       }
     ],

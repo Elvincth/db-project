@@ -1,1 +1,1 @@
-In this course, you will learn how to set up and config the **Two-factor authentication(2FA)** to protect your own WordPress website
+The Two-factor authentication is a good method that can prevent the brute-force attack.In this course, you will learn how to set up and config the **Two-factor authentication(2FA)** to protect your customer information on your WordPress website
