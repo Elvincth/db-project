@@ -34,11 +34,11 @@ filebeat_apache container is used to ship the apache.
 Used to bridge the network between elasticsearch, kibana and filebeat. So that they could exchange data and be accessible.
 <br></br>
 
-## In elasticsearch.yml file
+## <u>In elasticsearch.yml file</u>
 
 It is a configuration file for Elasticsearch
 <br></br>
 
-## In kibana.yml file<
+## <u>In kibana.yml file</u>
 
 It is a configuration file for kibana
