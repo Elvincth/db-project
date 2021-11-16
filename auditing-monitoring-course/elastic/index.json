@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Setup docker compose stack",
         "text": "step1.md"
       },
       {
@@ -56,7 +56,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/docker-EFK",
+    "uieditorpath": "/root/tutorial",
     "showdashboard": true,
     "dashboards": [
       {
