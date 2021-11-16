@@ -1,8 +1,8 @@
 {
-  "title": "Installing Malcare Plugin",
-  "description": "Monitoring data brench events from external and internal attacks",
+  "title": "01 Monitoring using Malcare",
+  "description": "Monitoring data breach events from external and internal attacks",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
