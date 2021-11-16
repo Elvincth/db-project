@@ -11,11 +11,6 @@
       "course_id": "elastic",
       "title": "02 Auditing, Alerting and Detecting Insider/External Attacks using EFK Stack",
       "description": "You will learn how to setup Elasticsearch, Logstash , Kibana stack for alerting"
-    },
-    {
-      "course_id": "monitoringAndAlerting",
-      "title": "monitoring and alerting",
-      "description": ""
     }
   ]
 }

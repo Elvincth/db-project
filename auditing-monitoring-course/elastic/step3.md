@@ -1,4 +1,4 @@
-### What is index pattern?
+## What is index pattern?
 
 Kibana requires an index pattern to access the Elasticsearch data that you want to explore. An index pattern selects the data to use and allows you to define properties of the fields.
 
