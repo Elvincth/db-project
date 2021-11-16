@@ -1,0 +1,1 @@
+The Open Authorization is also a method that can prevent different attack such as brute-force attack and CSRF attacks. In this course, you will learn how to set up and config the **Open Authorization(OAuth)** to protect your customer information in your WordPress website

@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Setup docker compose stack",
         "text": "step1.md"
       },
       {
@@ -14,15 +14,15 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Create an index pattern",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Filtering percona audit logs",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Audit rules for External Attack - Brute force attack",
         "text": "step5.md"
       },
       {
@@ -69,15 +69,6 @@
       }
     ]
   },
-  "files": [
-    "docker-compose.yml",
-    "elasticsearch.yml",
-    "filebeat_apache.yml",
-    "filebeat_db.yml",
-    "kibana.yml",
-    "my.cnf",
-    "init.sql"
-  ],
   "backend": {
     "imageid": "ubuntu:2004"
   }
