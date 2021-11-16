@@ -52,67 +52,62 @@ You can learn more from [here](https://www.elastic.co/guide/en/security/current/
 1. Select the rule type as **Threshold**
 2. Enter `apache-*`{{copy}} for the index pattern
 
-![Image](./assets/rule_1.png)
+![Image](./assets/rule_2.png)
 
-3. Enter `not audit_record.status : 0 AND audit_record.name : Connect`{{copy}} for the KQL query
+3. Enter `http.request.method : *`{{copy}} for the KQL query
    <br/>
    <br/>
-   `not audit_record.status : 0` means select all with record with unsuccessful login
+   `*` Apache access.log will logs all request and response records, so we can just select it all
    <br/>
-   `audit_record.name : Connect` The type of the record, “Connect” means login
 
 (The [Kibana Query Language](https://www.elastic.co/guide/en/kibana/7.15/kuery-query.html) (KQL) offers a simplified query syntax and support for scripted fields. )
 
-4. Input 10 for **Threshold**, the click **Continue**
-   The detection rule will trigger if any user login failed 10 or more times
+As we know DOS would generate large numbers of HTTP requests flood the server, resulting in denial-of-service, therefore we set a threshold for detecting it.
 
-![Image](./assets/rule_1_2.png)
+![Image](./assets/http_flood.png)
+
+1. Select `source.ip.keyword` for **Group by**, so we could count the amount of request per ip
+2. Input 200 for **Threshold**, the click **Continue**
+   The detection rule will trigger if there is 200 or more http requests per 10 sec (that we set in the schedule later) for an ip address
+
+![Image](./assets/rule_2_2.png)
 
 <br/>
 
 ### About rule
 
-For the **Name** enter `Possible brute force attack`{{copy}}
+For the **Name** enter `Possible DDOS/DOS attack`{{copy}}
 
-For the **Description** enter `Any user login failed 10 or more times`{{copy}}
+For the **Description** enter `200 or more http requests per 10 sec for an ip address `{{copy}}
 
 Default severity `high`, the click **Continue**
 
-![Image](./assets/rule_1_3.png)
+![Image](./assets/rule_2_3.png)
 
 <br/>
 
 ## Schedule Rule
 
-For testing purpose we set schedule to run in every `5 seconds`, the click **Continue**
+We set schedule to run in every `10 seconds`, the click **Continue**
 
-![Image](./assets/rule_1_4.png)
+![Image](./assets/rule_2_4.png)
 
 <br/>
 
 ## Alerting
 
-Once the rule's criteria are met we can alert it to a connector. In this case, we use `Slack`
+Once the rule's criteria are met we can alert it to a connector. In this case, we use `Slack`.
+<br/>
+We have setup the Slack webhook in `step4`, so we can just click the Slack icon for connecting it.
+<br/>
 
-1. First setup an account in [slack](https://slack.com/get-started#/createnew)
-2. The Go to https://my.slack.com/services/new/incoming-webhook
-3. Select a default channel for the integration, then click **Add Incoming WebHooks integration**
+1. Change the Message to `Possible DDOS/DOS attack! Rule {{context.rule.name}} generated {{state.signals_count}} alerts`{{copy}}
 
-![Image](./assets/slack_1.png)
+2. Set **actions frequency** as **On each rule execution**
 
-4. Copy your Webhook URL
+3. Click **Create & activate rule**
 
-![Image](./assets/slack_2.png)
-
-5. Back to Kibana, Click **slack icon** > **Create a connector**, then enter **Name** and paste the **Webhook URL** > Click **Save**
-
-![Image](./assets/slack_3.png)
-
-6. Change the Message to `Possible brute force attack! Rule {{context.rule.name}} generated {{state.signals_count}} alerts`{{copy}}
-
-7. Click **Create & activate rule**
-
-![Image](./assets/slack_4.png)
+![Image](./assets/rule_2_5.png)
 
 ## Simulate a brute force attack in the database container
 
