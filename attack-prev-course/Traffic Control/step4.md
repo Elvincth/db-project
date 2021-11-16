@@ -16,6 +16,10 @@ Click the `Get access key automatically` button.
 Then the firewall is setup successfully to monitoring the Firewall you can click the `Firewall` button .
 
 ![Image](./assets/FirewallAccess.png)
+<br></br>
 
 After access, You can see the records of traffic control of the firewall:
 ![Image](./assets/TrafficContralRecord.png)
+<br></br>
+
+The traffic control of the firewall will block the visitors who send more than 1000 requests per hour which can prevent DDoS.

@@ -16,6 +16,11 @@
       "course_id": "OAuth-setup",
       "title": "03 Setup OAuth in wordpress",
       "description": "Using the wordpress plugin to set up OAuth"
+    },
+    {
+      "course_id": "Traffic Control",
+      "title": "04 Traffic Control",
+      "description": "Setup the firewall and use the traffic control inside the firewall to prevent DDoS "
     }
   ]
 }

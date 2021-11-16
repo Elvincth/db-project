@@ -1,4 +1,4 @@
-## **Enforce the DDos to test the firewall**
+## **Enforce the DDoS to test the check the traffic control of the firewall**
 ---
 
 ### **Step 1:** 
@@ -22,19 +22,23 @@ click the Console button to access the console:
 Copy the following command and paste it in the console and click enter:
 
 
-```shfunction imgflood() {
-  let URI = '/wp-admin/ddos.php?'
+```sh {{copy}}
+function imgflood() {
+  let URI = '/wp-admin/DDoS.php?'
   let pic = new Image()
   let rand = Math.floor(Math.random() * 1000)
   pic.src = window.location.origin+URI+rand+'=val'
 }
 
-let ddosTimer = setInterval(imgflood, 1); //Run it every 1 ms
+let DDoSTimer = setInterval(imgflood, 1); //Run it every 1 ms
 
-setTimeout(() => clearInterval(ddosTimer), 30000); //Stop running in 30 sec
+setTimeout(() => clearInterval(DDoSTimer), 30000); //Stop running in 30 sec
 ```
-{{copy}}
 
 ![Image](./assets/ConsoleAddCommand.png)
 
 
+### **Step 4:** 
+Refresh the page after the DDoS command run and you can the Firewall block the DDoS attack which sends more than 1000 request successfully:
+
+![Image](./assets/Block.png)
