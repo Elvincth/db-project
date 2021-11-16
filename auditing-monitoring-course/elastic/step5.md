@@ -141,7 +141,9 @@ setTimeout(() => clearInterval(ddosTimer), 15000); //Stop running in 15 sec
 
 The script will generate 3744 invalid HTTP requests to the wordpress server in 15 seconds, making this a Layer 7 attack. You can learn more from [here](https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/)
 
-![Image](./assets/net.png)
+You will now see an alert message pop up in your slack channel
+
+![Image](./assets/bd.png)
 
 In security > overview you will also see alert is triggered
 
