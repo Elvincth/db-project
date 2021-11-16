@@ -19,6 +19,7 @@ access the CrackList file using the following command:
 
 `cd CrackList`{{execute}}
 <br></br>
+
 ### Step 4:
  Use the following command to enforce the Brute-force attack
 `

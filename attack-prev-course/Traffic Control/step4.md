@@ -19,6 +19,7 @@ Then the firewall is setup successfully to monitoring the Firewall you can click
 <br></br>
 
 After access, You can see the records of traffic control of the firewall:
+
 ![Image](./assets/TrafficContralRecord.png)
 <br></br>
 
