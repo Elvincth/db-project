@@ -52,3 +52,11 @@ For the **Description** enter `Any user login failed 10 or more times`{{copy}}
 Default severity `high`, the click **Continue**
 
 ![Image](./assets/rule_1_3.png)
+
+## Schedule Rule
+
+For testing purpose we set schedule to run in every `5 seconds`, the click **Continue**
+
+![Image](./assets/rule_1_4.png)
+
+## Alerting
