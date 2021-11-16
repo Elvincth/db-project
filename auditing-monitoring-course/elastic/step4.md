@@ -8,7 +8,7 @@ You can learn more from [here](https://www.forcepoint.com/zh-hant/cyber-edu/brut
 
 ### Scenario
 
-A developer have access to our remote mysql container, ba A developer has access to our remote mysql container, but he is not a database administrator and he doesn't have access to all the tables.
+A developer have access to our remote mysql container, but he is not a database administrators, he don't have privileges to access all the tables. He wanted to steal our company data, he know our DBA username and now he is trying to brute force the DBA password.
 
 <br/>
 
