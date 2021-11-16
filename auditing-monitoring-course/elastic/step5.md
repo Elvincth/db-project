@@ -147,4 +147,4 @@ You will now see an alert message pop up in your slack channel
 
 In security > overview you will also see alert is triggered
 
-![Image](./assets/al.png)
+![Image](./assets/slack_6.png)
