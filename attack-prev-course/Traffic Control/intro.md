@@ -1,1 +1,1 @@
-This course will teach you how to set up a firewall in wordpress and use the control traffic control to prevent the Denial-of-service attack(DDoS).
+This course will teach you how to set up a firewall in wordpress and use the traffic control to prevent the Denial-of-service attack(DDoS).
