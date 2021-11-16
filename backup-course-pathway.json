@@ -8,8 +8,8 @@
       "description": "Securely backing up of customer/transaction data"
     },
     {
-      "course_id": "02 mysqldump",
-      "title": "Backup by using Mysqldump with OpenSSL encryption",
+      "course_id": "mysqldump",
+      "title": "02 Backup by using Mysqldump with OpenSSL encryption",
       "description": "Securely backing up of customer/transaction data"
     }
   ]
