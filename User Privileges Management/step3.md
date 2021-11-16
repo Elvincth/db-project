@@ -14,7 +14,7 @@ Run `create user 'admin'@'localhost' identified by 'admin';`{{execute}}
 
 #### Create sales account:<br />
 
-Run `create user 'sales'@localhost' identified by 'sales';`{{execute}}
+Run `create user 'sales'@'localhost' identified by 'sales';`{{execute}}
 
 #### Create hr account:<br />
 Run `create user 'hr'@'localhost' identified by 'hr';`{{execute}}
