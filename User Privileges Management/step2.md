@@ -6,7 +6,7 @@ After enter to the container, then we can login to the mysql database.
 <br/>
 Let's try with root account.
 
-Run `mysql -u root -p`{{execute}}
+Run `mysql -uroot -p`{{execute}}
 <br/>
 Run `12345`{{execute}}
 
