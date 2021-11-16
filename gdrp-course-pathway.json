@@ -1,5 +1,13 @@
 {
   "title": "Addressing the various data subjects rights in GDPR",
   "description": "",
-  "courses": []
+  "courses": [
+
+    {
+      "course_id": "gdpr",
+      "title": "01 Introduction to GDPR",
+      "description": "Introduction to the concept of GDPR"
+    }
+
+  ]
 }
