@@ -8,7 +8,7 @@ Let's try with root account.
 
 Run `mysql -u root -p`{{execute}}
 <br/>
-The password is `12345`{{execute}}
+Run `12345`{{execute}}
 
 ### Create new database
 
