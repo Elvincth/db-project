@@ -40,8 +40,15 @@ You can learn more from [here](https://www.elastic.co/guide/en/security/current/
 
 4. Input 10 for **Threshold**, the click **Continue**
    The detection rule will trigger if any user login failed 10 or more times
-   ![Image](./assets/rule_1_2.png)
+
+![Image](./assets/rule_1_2.png)
 
 ### About rule
 
-For the title enter 
+For the **Name** enter `Possible brute force attack`{{copy}}
+
+For the **Description** enter `Any user login failed 10 or more times`{{copy}}
+
+Default severity `high`, the click **Continue**
+
+![Image](./assets/rule_1_3.png)
