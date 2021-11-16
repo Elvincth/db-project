@@ -81,17 +81,17 @@ Once the rule's criteria are met we can alert it to a connector. In this case, w
 
 ![Image](./assets/slack_1.png)
 
-4.  Copy your Webhook URL
+Copy your Webhook URL
 
 ![Image](./assets/slack_2.png)
 
-5.  Back to Kibana, Click **slack icon** > **Create a connector**, then enter **Name** and paste the **Webhook URL** > Click **Save**
+Back to Kibana, Click **slack icon** > **Create a connector**, then enter **Name** and paste the **Webhook URL** > Click **Save**
 
 ![Image](./assets/slack_3.png)
 
-6.  Change the Message to `Possible brute force attack! Rule {{context.rule.name}} generated {{state.signals_count}} alerts`{{copy}}
+Change the Message to `Possible brute force attack! Rule {{context.rule.name}} generated {{state.signals_count}} alerts`{{copy}}
 
-7.  Click **Create & activate rule**
+Click **Create & activate rule**
 
 ![Image](./assets/slack_4.png)
 
