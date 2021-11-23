@@ -1,6 +1,6 @@
 ## EFK stack
 
-(Elasticsearch, Logstash , Kibana) is often use for auditing, alerting and detecting insider/external attacks in the real-world,
+(Elasticsearch, Filebeat , Kibana) is often use for auditing, alerting and detecting insider/external attacks in the real-world,
 
 ## What is Elasticsearch?
 
